@@ -20,4 +20,14 @@
   h3 {
     @apply font-[Lora];
   }
+  .skill {
+    @apply pt-4;
+    @apply shadow-xl;
+    @apply shadow-[#423842];
+    @apply hover:scale-110;
+    @apply duration-500;
+    @apply bg-[#f6f4f6];
+    @apply text-[#342c34];
+    @apply rounded-xl;
+  }
 }
