@@ -8,8 +8,8 @@ function About() {
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <h1 className='text-5xl font-bold inline border-b-4 border-[#f3973b]'>
-              About <RiChatSmile3Fill className='inline mb-6' />
-            </h1>
+              About <RiChatSmile3Fill className='hidden md:inline mb-6' />
+          </h1>
           </div>
           <div></div>
         </div>
