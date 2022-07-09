@@ -20,7 +20,7 @@
   h3 {
     @apply font-[Lora];
   }
-  .skill {
+  .skills .content-item {
     @apply pt-4;
     @apply shadow-xl;
     @apply shadow-[#423842];
@@ -30,5 +30,32 @@
     @apply text-sm;
     @apply text-[#342c34];
     @apply rounded-xl;
+  }
+
+  .content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+
+  .projects .content-item {
+    @apply mx-auto;
+    @apply shadow-lg;
+    @apply shadow-[#423842];
+    @apply container;
+    @apply rounded-lg;
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
+    @apply text-center;
+  }
+
+  .content-div:hover {
+    background-image: linear-gradient(
+      to bottom right,
+      #f08519,
+      #f8c28c
+    ) !important;
   }
 }
