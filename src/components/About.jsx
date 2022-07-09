@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiChatSmile3Fill } from 'react-icons/ri'
 
-function About() {
+const About = () => {
   return (
     <div name='about' className='w-full h-screen bg-[#342c34] text-[#f6f4f6]'>
       <div className='flex flex-col justify-center items-center w-full h-full'>

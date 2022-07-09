@@ -36,7 +36,7 @@ const icons = [
   [ 'Bootstrap', Bootstrap ],
 ];
 
-function Skills() {
+const Skills = () => {
   return (
     <div name='skills' className='w-full min-h-screen bg-[#342c34] text-[#f6f4f6]'>
       <div className='max-w-[1000px] w-full h-full mx-auto p-4 flex flex-col justify-center'>
