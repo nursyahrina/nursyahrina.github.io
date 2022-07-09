@@ -27,6 +27,7 @@
     @apply hover:scale-110;
     @apply duration-500;
     @apply bg-[#f6f4f6];
+    @apply text-sm;
     @apply text-[#342c34];
     @apply rounded-xl;
   }

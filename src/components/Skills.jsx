@@ -38,26 +38,26 @@ const icons = [
 
 function Skills() {
   return (
-    <div name='skills' className='bg-[#342c34] text-[#f6f4f6]'>
+    <div name='skills' className='w-full min-h-screen bg-[#342c34] text-[#f6f4f6]'>
       <div className='max-w-[1000px] w-full h-full mx-auto p-4 flex flex-col justify-center'>
         <div>
           <h1 className='text-5xl font-bold inline border-b-4 border-[#f3973b]'>
-              Experiences <AiFillCode className='hidden md:inline mb-6' />
+              Skills <AiFillCode className='hidden md:inline mb-6' />
           </h1>
           <p className='py-4'>The technologies I've worked with:</p>
         </div>
 
-        <div className='w-full py-8 grid grid-cols-3 sm:grid-cols-6 gap-4 text-center'>
+        <div className='w-full py-8 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-5 text-center'>
           {icons.map(icon => {
             return (
               <div className='skill'>
-                <img className='w-16 mx-auto' src={ icon[1] } alt="HTML Icon" />
+                <img className='w-14 mx-auto' src={ icon[1] } alt="HTML Icon" />
                 <p className='my-4'>{icon[0]}</p>
               </div>
             )
           })}
-
         </div>
+
       </div>
     </div>
   )
