@@ -26,7 +26,7 @@ const Projects = () => {
             return (
               <div style={{ backgroundImage: `url(${project[1]})` }}
               className='group content-div content-item'>
-                <div className='opacity-0 group-hover:opacity-100'>
+                <div className='z-0 opacity-0 group-hover:opacity-100'>
                   <span className='text-2xl font-semibold text-[#fffffc] tracking-wider drop-shadow-lg'>
                     {project[0]}
                   </span>
