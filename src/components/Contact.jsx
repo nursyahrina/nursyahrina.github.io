@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
         <input className='p-2 bg-[#fffffc] text-[#342c34] rounded-lg' type="text" placeholder='Name' name="name" />
         <input className='my-4 p-2 bg-[#fffffc] text-[#342c34] rounded-lg' type="email" placeholder='Email' name="email" />
-        <textarea className='p-2 bg-[#fffffc] text-[#342c34] rounded-lg ' placeholder='Message' name="message" cols="30" rows="8"></textarea>
+        <textarea className='p-2 bg-[#fffffc] text-[#342c34] rounded-lg ' placeholder='Message' name="message" cols="30" rows="6"></textarea>
         <button className='group font-bold border-2 rounded-xl px-4 py-3 my-8 mx-auto flex items-center hover:bg-[#f3973b] hover:border-[#f3973b]'>Send Message
         <RiSendPlaneFill className='ml-3 group-hover:translate-x-1.5 group-hover:-translate-y-1.5 duration-300' />
         </button>
