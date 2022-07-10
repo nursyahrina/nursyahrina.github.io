@@ -84,17 +84,17 @@ const Navbar = () => {
         <ul>
           <li className='rounded-tr-xl hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
             <a className='flex justify-between items-center w-full text-[#fffffc]' 
-            href="/">Linkedin <FaLinkedin size={30} />
+            href="https://www.linkedin.com/in/nursyahrina/">Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className='hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#24292f]'>
             <a className='flex justify-between items-center w-full text-[#fffffc]' 
-            href="/">Github <FaGithub size={30} />
+            href="https://github.com/nursyahrina">Github <FaGithub size={30} />
             </a>
           </li>
           <li className='hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#bb001b]'>
             <a className='flex justify-between items-center w-full text-[#fffffc]' 
-            href="/">Email <HiOutlineMail size={30} />
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=nursyahrina17@gmail.com">Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className='rounded-br-xl hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c0660c]'>
