@@ -12,12 +12,12 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div name='projects' className='projects w-full md:h-screen bg-[#342c34] text-[#f6f4f6]'>
+    <div name='projects' className='projects w-full md:h-screen bg-[#342c34] text-[#e3dee3]'>
       <div className='w-full h-full max-w-[1000px] mx-auto p-4 flex flex-col justify-center'>
         <div className='pb-8'>
-          <h1 className='text-5xl font-bold inline border-b-4 border-[#f3973b]'>
+          <h3 className='text-5xl font-bold inline border-b-4 border-[#f3973b]'>
               Projects <AiFillProject className='hidden md:inline mb-6' />
-          </h1>
+          </h3>
           <p className='py-4'>My Recent Projects:</p>
         </div>
 

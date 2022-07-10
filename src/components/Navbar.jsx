@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#342c34] text-[#f3973b] drop-shadow-lg'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#342c34] text-[#f3973b]'>
       <div>
         <img src={Logo} alt="Logo" className='w-[50px] rounded-xl'/>
       </div>
@@ -39,24 +39,24 @@ const Navbar = () => {
         <li className='py-6 text-3xl'>Contacts</li>
       </ul>
       {/* Social icons */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+      <div className='hidden lg:flex fixed flex-col top-[30%] left-0'>
         <ul>
-          <li className='rounded-tr-xl hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5] drop-shadow-2xl'>
+          <li className='rounded-tr-xl hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0077b5]'>
             <a className='flex justify-between items-center w-full text-[#fffffc]' 
             href="/">Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#24292f] drop-shadow-2xl'>
+          <li className='hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#24292f]'>
             <a className='flex justify-between items-center w-full text-[#fffffc]' 
             href="/">Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#bb001b] drop-shadow-2xl'>
+          <li className='hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#bb001b]'>
             <a className='flex justify-between items-center w-full text-[#fffffc]' 
             href="/">Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className='rounded-br-xl hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c0660c] drop-shadow-2xl'>
+          <li className='rounded-br-xl hover:rounded-r-xl w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#c0660c]'>
             <a className='flex justify-between items-center w-full text-[#fffffc]' 
             href="/">Resume <BsFillPersonLinesFill size={30} />
             </a>

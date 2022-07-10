@@ -38,12 +38,12 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div name='skills' className='skills w-full min-h-screen bg-[#342c34] text-[#f6f4f6]'>
+    <div name='skills' className='skills w-full min-h-screen bg-[#342c34] text-[#e3dee3]'>
       <div className='w-full h-full max-w-[1000px] mx-auto p-4 flex flex-col justify-center'>
         <div>
-          <h1 className='text-5xl font-bold inline border-b-4 border-[#f3973b]'>
+          <h3 className='text-5xl font-bold inline border-b-4 border-[#f3973b]'>
               Skills <AiFillCode className='hidden md:inline mb-6' />
-          </h1>
+          </h3>
           <p className='py-4'>The technologies I've worked with:</p>
         </div>
 
