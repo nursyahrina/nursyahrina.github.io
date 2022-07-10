@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e2d9b3b.css",
+    "main.js": "/static/js/main.33b65383.js",
+    "static/media/Logo.png": "/static/media/Logo.d4741e787b49c82cd58b.png",
+    "static/media/MovieReviewsApp.png": "/static/media/MovieReviewsApp.2e8596483447be818932.png",
+    "static/media/NotesApp.png": "/static/media/NotesApp.4aeb52665810eeba1702.png",
+    "static/media/BookshelfApp.png": "/static/media/BookshelfApp.ac0b9f6828028381ab6f.png",
+    "static/media/react.png": "/static/media/react.236e02a25e48dfbd528d.png",
+    "static/media/postgresql.png": "/static/media/postgresql.1112a19b54fa314ca25f.png",
+    "static/media/aws.png": "/static/media/aws.8048b2cd580bb5f42313.png",
+    "static/media/node-js.png": "/static/media/node-js.1fac080eeec0a547c743.png",
+    "static/media/laravel.png": "/static/media/laravel.d2942780193b06a7dd99.png",
+    "static/media/css3.png": "/static/media/css3.154fc5f7c05edb5a04c1.png",
+    "static/media/mysql.png": "/static/media/mysql.4455c23a5a382f64ba17.png",
+    "static/media/php.png": "/static/media/php.979ab77fcbdc136e3f99.png",
+    "static/media/html.png": "/static/media/html.ddd7dc29309efefeb59a.png",
+    "static/media/codeigniter.png": "/static/media/codeigniter.a5ee4f93c019febb4561.png",
+    "static/media/mongodb.png": "/static/media/mongodb.7233e939bf00e9a1fde4.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.a7ba822f804928ecb1a9.png",
+    "index.html": "/index.html",
+    "main.9e2d9b3b.css.map": "/static/css/main.9e2d9b3b.css.map",
+    "main.33b65383.js.map": "/static/js/main.33b65383.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e2d9b3b.css",
+    "static/js/main.33b65383.js"
+  ]
+}
