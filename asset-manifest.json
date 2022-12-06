@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b9361a1.css",
-    "main.js": "/static/js/main.317cc26d.js",
+    "main.css": "/static/css/main.792cd8c1.css",
+    "main.js": "/static/js/main.daa712d6.js",
     "static/media/Logo.png": "/static/media/Logo.d4741e787b49c82cd58b.png",
     "static/media/NotesApp.png": "/static/media/NotesApp.c1b24bfa3a840fe59927.png",
+    "static/media/AnyDiscuss.png": "/static/media/AnyDiscuss.eb5bed57a6dc30e57ad8.png",
     "static/media/MovieReviewsApp.png": "/static/media/MovieReviewsApp.bcb2f8f88a98693329db.png",
     "static/media/Profile.png": "/static/media/Profile.54eaa1cd002e5d05bbff.png",
+    "static/media/SISFO.png": "/static/media/SISFO.b5a8684da87527eb9dce.png",
     "static/media/ExerciseTracker.png": "/static/media/ExerciseTracker.fa9eed6d66899adaed1a.png",
     "static/media/react.png": "/static/media/react.236e02a25e48dfbd528d.png",
     "static/media/BookshelfApp.png": "/static/media/BookshelfApp.dea7447485315afeaae5.png",
@@ -21,11 +23,11 @@
     "static/media/mongodb.png": "/static/media/mongodb.7233e939bf00e9a1fde4.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.a7ba822f804928ecb1a9.png",
     "index.html": "/index.html",
-    "main.9b9361a1.css.map": "/static/css/main.9b9361a1.css.map",
-    "main.317cc26d.js.map": "/static/js/main.317cc26d.js.map"
+    "main.792cd8c1.css.map": "/static/css/main.792cd8c1.css.map",
+    "main.daa712d6.js.map": "/static/js/main.daa712d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b9361a1.css",
-    "static/js/main.317cc26d.js"
+    "static/css/main.792cd8c1.css",
+    "static/js/main.daa712d6.js"
   ]
 }
